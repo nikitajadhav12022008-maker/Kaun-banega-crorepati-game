@@ -33,7 +33,7 @@ for i in range(len(Questions)):
     print(f"c.{question[3]}   d.{question[4]}")
     reply = int(input("enter your answer(1-4):"))
     if(reply == question[-1]):
-        print("correct answer you won rs.{levels[i]}")
+        print(f"correct answer you won rs.{levels[i]}")
         if(i == 4):
             money = 10000
         elif(i == 9):
@@ -42,4 +42,5 @@ for i in range(len(Questions)):
             money = 10000000
     else:
         print("wrong answer!!!")
+
         break
